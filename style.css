@@ -1,0 +1,221 @@
+.outer-calculator{
+    background: rgb(231, 236, 238);
+    width:232px;
+    height: 336px;
+    border-radius:10px;
+    padding-right:1px;
+    border:1px solid #f0f2f3;
+    margin:auto;
+}
+
+.inner-calculator{
+    margin:0px 9px;
+    border:0.1px solid #9ca2a5;
+    margin-top:8px;
+    width:212px;
+    height: 298px;
+    padding:1px;
+    background:linear-gradient(160deg
+    ,rgb(246, 244, 244),#89c1da);
+text-align: center;
+
+}
+
+.nav-item p{
+    display:inline;margin-right: 38px;
+}
+.nav-item button{
+    /* padding: 0px 8px;   */
+    cursor: pointer;
+    border-top: none;
+    background:linear-gradient(180deg
+    ,rgb(246, 244, 244),#a7c7d4);
+    border-bottom:1px solid #9ca2a5;
+    border-left:1px solid#bdbede;
+    border-right: 1px solid #bdbede
+ }
+ .nav-item button:focus{
+    outline: none;background:rgb(165, 156, 156);
+}
+.nav-dash:hover{background:linear-gradient(180deg
+    ,white,rgb(26, 26, 235));
+}
+.nav-dash{font-size: 1em;
+    color: white;
+    width:30px;
+    margin-right:-6px;
+}
+.nav-box{font-size: 1e;
+    /* margin-left:-6px;
+    width:10px; */
+    background: red;
+    padding:0px
+
+}
+.nav-x:hover{
+    background:linear-gradient(180deg
+    ,white,red);
+}
+.nav-x{
+    font-size:1em;
+    color: white;
+    width:40px;   
+}
+.img{
+    width: 11px;
+    margin-top: 1.5px;
+    margin-left: 4px;
+    height:15px;
+    margin-right:4px;
+}
+
+x{
+    font-family:Brush Script MT;
+    font-size: 1.em;
+}
+ul{
+    list-style-type:none;
+  border-bottom:1px solid #9ca2a5;
+    margin-left: -1px ;
+    margin-right:-1px ;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+ul li:nth-child(1){
+    width: 70px;
+    margin-left: -130px;
+}
+ul li:nth-child(2){
+    width: 70px;
+    margin-left: -35px;
+}
+ul li:last-child{
+    width: 70px;
+    margin-left: -35px;
+}
+li{
+    display:inline-block;
+    margin-left:8px;
+}
+
+li >a{
+    text-decoration:none;
+    font-family: corbel;
+    font-size: 0.8em;
+}
+.screen{
+    width:218px;  
+}
+#screen{
+    width:185px;
+    height:48px;
+   margin-left:-5px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    border:0.1px solid #9ca2a5;
+    background: #eeeff3;
+    text-align: right;
+    font-family: consolas;
+    font-size: 1.7em;
+    font-weight: normal;
+    background:linear-gradient(185deg
+    ,#cbdee6,white);
+}
+#screen:focus{
+    outline: none;
+}
+.keyboard-container{
+    display:grid;
+    width:195px;
+    margin:0px auto;
+    grid-template-columns: repeat(51 fr);
+    grid-template-rows: repeat(6,34px);
+    grid-template-areas: "a a a a a" 
+                         "b b b b b"
+                         "c c c c c"
+                         "d d d d d"
+                         "e e e e g" 
+                         "f f f f g";  
+                         text-shadow: 2px 2px 2px red;                                 
+}
+.keyboard-container button:hover{
+    background:linear-gradient(180deg,white,rgb(250, 185, 6)); 
+    border:none;
+    transition: 100ms ease;
+    transform: translate(0px,0px);
+}
+.keyboard-container button{
+    width:34px;
+    height:27px;
+    padding:0px;
+    margin:3px 0.5px;
+   font-family:corbel;
+    cursor: pointer;
+    background:linear-gradient(180deg
+    ,#94cce4,rgb(246, 244, 244));
+    border:1px solid #9ca2a5;
+    border-radius: 3px;
+}
+.keyboard-container button:focus{
+    outline: none;
+}
+.arror~div button{
+    /* background:rgb(224, 228, 233); */
+    font-size:1em;
+}
+.mc{
+    grid-area:a;
+}
+.arror{
+    grid-area:b;
+}
+.roll-seven{
+    grid-area:c;
+}
+.roll-four{
+    grid-area:d;
+}
+.roll-one{
+    grid-area:e;
+}
+.roll-zero{
+    grid-area:f;
+}
+.equal-sign{
+    grid-area:g;
+}
+#equal{
+    height: 62px;
+}
+.roll-zero button:nth-child(1){
+    width: 73px;
+
+}
+.selector{
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+
+/* .keyboard-container button{
+    animation-name: blue-to-green;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    background:#d6eef8;
+}
+@keyframes  blue-to-green{
+    10%{background:blue;}
+    20%{background:red;}
+    30%{background:green;}  
+    40%{background: yellow;} 
+} */ 
+.dash{
+    background:rgb(245, 242, 242);
+    border:1p solid rgb(47, 32, 32);
+    width:12px;
+    height: 10px;
+    margin:0px;
+    /* max-width:100%;
+    max-height: 100%; */text-align: cente;
+display:inline-bloc;
+}
